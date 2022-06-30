@@ -69,15 +69,22 @@ body {
     padding: 3vh 10vh;
     border-color: var(--accent);
     box-shadow: 0 5px 15px 0 var(--dark);
+    transition-duration: 0.2s;
 }
 
-/* for all buttons COME BACK TO ME */
-button:hover {
+/* for all buttons? COME BACK TO ME */
+
+#startBtn:hover {
     background-color: var(--primary);
     border-color: var(--dark);
     cursor: grabbing;
-
+    transform: 1vh;
 }
+/* to make the button move when clicked */
+#startBtn:active {
+    transform: translateY(0.5vh);
+}
+
 /* part at bottom saying it was made by me */
 .foot {
     box-sizing: border-box;
