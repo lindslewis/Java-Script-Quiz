@@ -1,34 +1,36 @@
 //global vars:
-//below, may be easier to use it as an object
-var questions = [
-    {
-        question: "2+2?",
-        answers: [3,4,5,6,8],
-        correctAnswer:"4",
-    },
-    {
-        question: "2+2?",
-        answers: [3,4,5,6,8],
-        correctAnswer:"4",  
-    },
-    {
-        question: "2+2?",
-        answers: [3,4,5,6,8],
-        // correctAnswer:"4",
-        //correctAnswerIndex: 1 
-    }
-]
+// //below, may be easier to use it as an object
+// var questions = [
+//     {
+//         question: "2+2?",
+//         answers: [3,4,5,6,8],
+//         correctAnswer:"4",
+//     },
+//     {
+//         question: "2+2?",
+//         answers: [3,4,5,6,8],
+//         correctAnswer:"4",  
+//     },
+//     {
+//         question: "2+2?",
+//         answers: [3,4,5,6,8],
+//         // correctAnswer:"4",
+//         //correctAnswerIndex: 1 
+//     }
+// ]
 
-//to console log second question,  second answer
-console.log(questions[2].answers[2])
+// //to console log second question,  second answer
+// console.log(questions[2].answers[2])
 
-//for the high scores
-var highScores = [
-    {
-        initials: "LL",
-        score: 0
-    }
-]
+// //for the high scores
+// var highScores = [
+//     {
+//         initials: "LL",
+//         score: 0
+//     }
+// ]
+
+
 //questions array (contain questions and answers)--remember that arrays start at 0
 //currentQuestion (var that starts at 0), accesses the questions array = 0
 //timeLeft (timer)
@@ -68,3 +70,48 @@ var highScores = [
     //make highscores visible (or redirect to highscores page if we do multiple html pages)
     //prompt user to play again?
     //folder 26 from mod 4 would be good to review for storage, using todos (highScores(this is the todos)= storedTodos + newScore)
+
+
+    // global vars
+
+    //the questions with their answers
+    var questions = [
+        {
+            question:"How many movies has Studio Ghibli produced (as of 2022)?",
+            answers: ["16", "20","11", "32", "23"],
+            correctAnswerIndex: 4
+
+        }, 
+        {
+            question:"Four artists founded studio ghibli: which of the below is NOT one of the founders?",
+            answers: ["Yasuyoshi Tokuma","Makoto Shinkai","Hayao Miyazaki", "Toshi Suzuki", "Isao Takahata"],
+            correctAnswerIndex: 1
+        },
+        { 
+            question: "What was the first film that Studio Ghibli released?",
+            answers: ["Castle in the Sky", "Grave of the Fireflies","Porco Rosso", "Nausicaa of the Valley of the Wind", "Whisper of the Heart"],
+            correctAnswerIndex: 3
+        },
+        {
+            question:"What Ghibli character is seen in the studio's logo image?",
+            answers: ["Turnip Head","Totoro","Calcifer","No-Face","Jiji"],
+            correctAnswerIndex: 1
+        },
+        {
+            question:"What is Studio Ghibli's highest grossing film?",
+            answers: ["Howl's Moving Castle (2004)","From Up on Poppy Hill (2011)","Kiki's Delivery Service (1989)", "Spirited Away (2001)", "Princess Mononoke (1997)"],
+            correctAnswerIndex: 3
+        }
+    ]
+
+
+    // index page javascript
+    // this makes the button take you to the next html doc
+    var startBtn = document.querySelector("#startBtn")
+    startBtn.addEventListener("click", function() {
+        location.href = "quiz-page.html"
+    });
+
+
+
+    
