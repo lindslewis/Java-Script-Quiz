@@ -1,0 +1,53 @@
+* {
+    margin: 0%;
+    font-family: 'DejaVu Sans Mono', monospace, sans-serif;
+
+}
+
+:root {
+    --background: #fefee3;
+    --primary: #FFC9B9;
+    --secondary: #4c956c;
+    --accent: #2c6e49;
+    --dark: #613a3a;
+
+}
+
+body {
+    height: 100%;
+}
+
+
+.primaryContainer {
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    align-self: center;
+    position: relative;
+    border-radius: 5px;
+    border: 5px solid var(--accent);
+    /* height and width according to viewport */
+    height: 50vh;
+    width: 50vw;
+    /* to make the box centered */
+    margin: auto;
+
+}
+
+.bigHead {
+    color: var(--dark);
+    font: bolder;
+    font-size: 6vh;
+    text-align: center;
+}
+
+.smolHead {
+    color: var(--dark);
+    text-align: center;
+}
+
+
+.foot {
+    text-align: center;
+    
+}
