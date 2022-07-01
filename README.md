@@ -3,6 +3,10 @@
 ## description
 Take the Studio Ghibli quiz to test your knowledge on the iconic animation studio! The quiz will take users through 5 questions (with 5 answer options each) to see how much they really know about the studio and it's films.
 
+!["screenshot of the opening page"](assets/images/front-page.jpg)
+!["screenshot of quiz page"](assets/images/quiz-page.jpg)
+!["screenshot of scores page"](assets/images/scores-page.jpg)
+
 ## table-of-contents
 1. [usage](##usage)
 2. [composition](##composition)

@@ -104,12 +104,19 @@
         }
     ]
 
-    function newPage(){
+    // went from being able to open the other page to now being unable to....
+    // function newPage(){
+
         var startBtn = document.querySelector('#startBtn')
         startBtn.addEventListener("click", function() {
             location.href = "quiz-page.html";
-           }
-        )}
+           });
+        // )}
+    
+    // function questions(){
+    //     var questions = document.querySelectorAll('.btnOptions')
+
+    // }
     
     //3 minutes, come back to this
     // var timer = setTimeout(function(), 180000) {
