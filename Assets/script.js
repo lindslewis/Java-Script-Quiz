@@ -73,9 +73,9 @@
 
 
     // global vars
-
+    // var timer = 
     //the questions with their answers
-    var questions = [
+    const questions = [
         {
             question:"How many movies has Studio Ghibli produced (as of 2022)?",
             answers: ["16", "20","11", "32", "23"],
@@ -103,15 +103,52 @@
             correctAnswerIndex: 3
         }
     ]
+    //3 minutes, come back to this
+    // var timer = setTimeout(function(), 180000) {
+        
+    // }
+
 
 
     // index page javascript
     // this makes the button take you to the next html doc
-    var startBtn = document.querySelector("#startBtn")
-    startBtn.addEventListener("click", function() {
-        location.href = "quiz-page.html"
-    });
+    // function quizTimer(){
+    //     var startBtn = document.querySelector("#startBtn")
+    //     startBtn.addEventListener("click", setTimer() {
+    //         location.href = "quiz-page.html";
+    //         secondsLeft--,
+    //             //have one for when they hit the submit button too at the end???
+    //             timer.textContent = secondsLeft;
 
+    //             if(secondsLeft===0){
+    //                 clearTimeout(timer)
+    //                 alert("Times up! Let's see how you did.")
+    //              }
+    //     })
+    // }
+    //timer is below, want the timeout to happen through ending the quiz????
+    function quizTimer (){
+        var startBtn = document.querySelector('#startBtn')
+        startBtn.addEventListener("click", setTimeout(,1800000));{
+            location.href = "quiz-page.html";
+            secondsLeft--;
+            timer.textContent = secondsLeft;
+            }if (secondsLeft===0){
+                clearTimeout()
+                alert("Time's up! Let's see how you did.")
+            }
+    }
+
+    // quiz page javascript
+    var quizBtns = document.querySelector("#btnOptions")
+    quizBtns.addEventListener("click", function(){
+    })
+
+    // for the timer, probably need to do a window.setTimeout() for having it exit the quiz if the timer runs out
+    //this is where the user goes when they either click the final submit button or have it time out on them
+    function endQuiz (){
+        
+    }
 
 
     
