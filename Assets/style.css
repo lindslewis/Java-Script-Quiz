@@ -39,7 +39,7 @@ body {
     border-radius: 5px;
 }
 /* larger part of headings, index = studio ghibli trivia */
-#quizTitle {
+.quizTitle {
     color: var(--dark);
     font: bolder;
     font-size: 6vh;
@@ -48,7 +48,7 @@ body {
 }
 
 /* smaller part of headings, index = test your knowledge */
-#titleCaption {
+.titleCaption {
     color: var(--dark);
     text-align: center;
     padding-bottom: 2vh;
@@ -127,6 +127,22 @@ body {
     transform: translateY(0.5vh);
 }
 
+/* for only the scores html page */
+/* the scores header */
+/* #scoresHead {
+    display: flex;
+    padding: 3vh;
+    color: var(--dark);
+    font-size: 6vh;
+    justify-content: center;
+}
+
+#scoreSecondary {
+    display: flex;
+    padding: 2vh;
+    color: var(--dark);
+    font-size: 2vh;
+} */
 /* part at bottom saying it was made by me */
 .foot {
     box-sizing: border-box;
