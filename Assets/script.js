@@ -103,6 +103,14 @@
             correctAnswerIndex: 3
         }
     ]
+
+    function newPage(){
+        var startBtn = document.querySelector('#startBtn')
+        startBtn.addEventListener("click", function() {
+            location.href = "quiz-page.html";
+           }
+        )}
+    
     //3 minutes, come back to this
     // var timer = setTimeout(function(), 180000) {
         
@@ -127,28 +135,29 @@
     //     })
     // }
     //timer is below, want the timeout to happen through ending the quiz????
-    function quizTimer (){
-        var startBtn = document.querySelector('#startBtn')
-        startBtn.addEventListener("click", setTimeout(,1800000));{
-            location.href = "quiz-page.html";
-            secondsLeft--;
-            timer.textContent = secondsLeft;
-            }if (secondsLeft===0){
-                clearTimeout()
-                alert("Time's up! Let's see how you did.")
-            }
-    }
-
-    // quiz page javascript
-    var quizBtns = document.querySelector("#btnOptions")
-    quizBtns.addEventListener("click", function(){
-    })
+    // function quizTimer (){
+    //     var startBtn = document.querySelector('#startBtn')
+    //     startBtn.addEventListener("click", setTimeout(1300));{
+    //         location.href = "quiz-page.html";
+    //         secondsLeft--;
+    //         timer.textContent = secondsLeft;
+    //         }if (secondsLeft===0){
+    //             clearTimeout()
+    //             alert("Time's up! Let's see how you did.")
+    //         }
+    // }
+    
+ 
+    // // quiz page javascript
+    // var quizBtns = document.querySelector("#btnOptions")
+    // quizBtns.addEventListener("click", function(){
+    // })
 
     // for the timer, probably need to do a window.setTimeout() for having it exit the quiz if the timer runs out
-    //this is where the user goes when they either click the final submit button or have it time out on them
-    function endQuiz (){
+    // //this is where the user goes when they either click the final submit button or have it time out on them
+    // function endQuiz (){
         
-    }
+    // }
 
 
     
