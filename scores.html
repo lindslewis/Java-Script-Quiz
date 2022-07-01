@@ -4,15 +4,17 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="Assets/style.css">
     <title>Ghibli Quiz</title>
 </head>
 <body>
     <main>
-        <h1>High Scores</h1>
+       
 
         <!-- this is the container for the rankings/scores -->
-        <section>
+        <section class="primaryContainer">
+
+            <h1 class="openingHeader">High Scores</h1>
 
             <!-- this is the container for the player name/initials -->
             <article id="playerBoard">
@@ -37,14 +39,23 @@
                 </ol>
 
             </article>
+
+            <!-- this is the container for the buttons -->
+            <article>
+                <button id="erase">Clear Scores</button>
+                <button id="replay">Play Again</button>
+            </article>
+            
         </section>
 
-        <!-- this is the container for the buttons -->
+        
         <section>
-            <button id="erase">Clear Scores</button>
-            <button id="replay">Play Again</button>
+
         </section>
     </main>
     
 </body>
+
+<footer class="foot">Created by Lindsay Lewis</footer>
+
 </html>
