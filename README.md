@@ -1,4 +1,4 @@
-# studio-ghibli-quiz
+# [studio-ghibli-quiz](https://lindslewis.github.io/studio-ghibli-quiz/)
 
 ## description
 Take the Studio Ghibli quiz to test your knowledge on the iconic animation studio! The quiz will take users through 5 questions (with 5 answer options each) to see how much they really know about the studio and it's films.

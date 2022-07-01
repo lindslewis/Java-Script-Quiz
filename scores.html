@@ -19,33 +19,35 @@
                 <h2 class="titleCaption">Did your knowledge manage to impress?</h2>
             </article>
 
+            <section id="boardParent">
             <!-- this is the container for the player name/initials -->
-            <article id="playerBoard">
-                <h2>Player</h2>
+                <article id="playerBoard">
+                    <h2>Player</h2>
 
-                <!-- ordered list for each player, ordered because I want it to rank from highest to lowest -->
-                <ol>
+                    <!-- ordered list for each player, ordered because I want it to rank from highest to lowest -->
+                    <ol class="scoreLists">
                     <!-- starts with nothing and then adds as it goes, how do I do this? -->
-                    <li></li>
+                        <li class="playerNames"></li>
 
-                </ol>
-            </article>
+                    </ol>
+                </article>
 
             <!-- this is the container for the score, side by side to the relevant player -->
-            <article id="scoreBoard">
-                <h2>Score</h2>
+                <article id="scoreBoard">
+                    <h2>Score</h2>
 
                 <!--ordered list of the scores themselves, highest to lowest-->
-                <ol>
-                    <!-- same question as the ol in the first article -->
-                    <li></li>
-                </ol>
+                    <ol class="scoreLists">
+                        <!-- same question as the ol in the first article -->
+                        <li class="playerScores"></li>
+                    </ol>
 
-            </article>
+                </article>
+            </section>
 
             <!-- this is the container for the buttons -->
-            <article>
-                <button id="erase">Clear Scores</button>
+            <article id="endBtns">
+                <button id="erase">Clear</button>
                 <button id="replay">Play Again</button>
             </article>
 
@@ -60,5 +62,7 @@
 </body>
 
 <footer class="foot">Created by Lindsay Lewis</footer>
+
+<script src="Assets\script.js"></script>
 
 </html>

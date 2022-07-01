@@ -126,23 +126,78 @@ body {
 #btnOptions button:active {
     transform: translateY(0.5vh);
 }
-
-/* for only the scores html page */
-/* the scores header */
-/* #scoresHead {
-    display: flex;
-    padding: 3vh;
-    color: var(--dark);
-    font-size: 6vh;
-    justify-content: center;
+/* only for the scores html */
+#boardParent {
+    padding: 2vh;
+    height: 60%;
 }
 
-#scoreSecondary {
-    display: flex;
-    padding: 2vh;
+#playerBoard {
+    width: 50%;
+    float: left;
+    color: var(--secondary);
+
+}
+#scoreBoard {
+    width: 50%;
+    float: right;
+    color: var(--secondary);
+ 
+}
+
+/* container for clear and play again buttons */
+#endBtns {
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    height: 4vh;
+}
+
+/* both clear and play again buttons */
+#endBtns button {
+    background-color: var(--secondary);
     color: var(--dark);
+    width: 20%;
+    height: 5vh;
+    align-items: center;
+    border-radius: 5px;
+    padding: 1vh;
+    margin: auto 2vh auto 2vh;
+    border-color: var(--accent);
+    transition-duration: 0.2s;
+    display: inline;
+}
+
+/* clear button */
+#erase {
     font-size: 2vh;
-} */
+    font-weight: bolder;
+}
+
+/* play again button */
+#replay {
+    font-size: 2vh;
+    font-weight: bolder;
+}
+
+#endBtns button:hover {
+    background-color: var(--primary);
+    border-color: var(--dark);
+    cursor: grabbing;
+    transform: 1vh;
+}
+
+#endBtns button:active {
+    transform: translateY(0.5vh);
+}
+
+.scoreLists {
+    margin-top: 2vh;
+}
+
+.playerScores {
+    list-style: none;
+}
 /* part at bottom saying it was made by me */
 .foot {
     box-sizing: border-box;
