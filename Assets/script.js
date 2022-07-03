@@ -79,39 +79,48 @@
         {
             question:"How many movies has Studio Ghibli produced (as of 2022)?",
             answers: ["16", "20","11", "32", "23"],
-            correctAnswerIndex: 4
+            correctAnswer: "23"
 
         }, 
         {
             question:"Four artists founded studio ghibli: which of the below is NOT one of the founders?",
             answers: ["Yasuyoshi Tokuma","Makoto Shinkai","Hayao Miyazaki", "Toshi Suzuki", "Isao Takahata"],
-            correctAnswerIndex: 1
+            correctAnswer: "Makoto Shinkai"
         },
         { 
             question: "What was the first film that Studio Ghibli released?",
             answers: ["Castle in the Sky", "Grave of the Fireflies","Porco Rosso", "Nausicaa of the Valley of the Wind", "Whisper of the Heart"],
-            correctAnswerIndex: 3
+            correctAnswer: "Nausicaa of the Valley of the Wind"
         },
         {
             question:"What Ghibli character is seen in the studio's logo image?",
             answers: ["Turnip Head","Totoro","Calcifer","No-Face","Jiji"],
-            correctAnswerIndex: 1
+            correctAnswer: "Totoro"
         },
         {
             question:"What is Studio Ghibli's highest grossing film?",
             answers: ["Howl's Moving Castle (2004)","From Up on Poppy Hill (2011)","Kiki's Delivery Service (1989)", "Spirited Away (2001)", "Princess Mononoke (1997)"],
-            correctAnswerIndex: 3
+            correctAnswer: "Spirited Away (2001)"
         }
     ]
+    //make text content equal to my object array in buttons?
 
+    
     // went from being able to open the other page to now being unable to....
     // function newPage(){
-
+    // window.onload = function(){
         var startBtn = document.querySelector('#startBtn')
-        startBtn.addEventListener("click", function() {
+        if(startBtn !== null){
+            startBtn.addEventListener("click", function() {
             location.href = "quiz-page.html";
-           });
-        // )}
+            });
+        }
+        var redoQuiz = document.querySelector("#replay")
+        if(redoQuiz !== null){
+            redoQuiz.addEventListener("click", function() {
+            location.href = "index.html";
+            });
+        }
     
     // function questions(){
     //     var questions = document.querySelectorAll('.btnOptions')
