@@ -1,4 +1,4 @@
-//third
+//third, for scores page
 var input = document.querySelector("#userInitials")
 var saveButton = document.querySelector("#submitInitials")
 
