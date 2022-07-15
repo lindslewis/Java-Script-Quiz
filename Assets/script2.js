@@ -1,4 +1,4 @@
-//second script
+//second script, for the quiz function itself
 
 //function for questions
 var questionIndex = 0

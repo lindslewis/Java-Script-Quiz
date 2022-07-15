@@ -1,35 +1,3 @@
-//global vars:
-// //below, may be easier to use it as an object
-// var questions = [
-//     {
-//         question: "2+2?",
-//         answers: [3,4,5,6,8],
-//         correctAnswer:"4",
-//     },
-//     {
-//         question: "2+2?",
-//         answers: [3,4,5,6,8],
-//         correctAnswer:"4",  
-//     },
-//     {
-//         question: "2+2?",
-//         answers: [3,4,5,6,8],
-//         // correctAnswer:"4",
-//         //correctAnswerIndex: 1 
-//     }
-// ]
-
-// //to console log second question,  second answer
-// console.log(questions[2].answers[2])
-
-// //for the high scores
-// var highScores = [
-//     {
-//         initials: "LL",
-//         score: 0
-//     }
-// ]
-
 
 //questions array (contain questions and answers)--remember that arrays start at 0
 //currentQuestion (var that starts at 0), accesses the questions array = 0
@@ -103,12 +71,7 @@
             correctAnswer: "Spirited Away (2001)"
         }
     ]
-    //make text content equal to my object array in buttons?
-
-    
-    // went from being able to open the other page to now being unable to....
-    // function newPage(){
-    // window.onload = function(){
+ 
         var startBtn = document.querySelector('#startBtn')
         if(startBtn !== null){
             startBtn.addEventListener("click", function() {
@@ -122,58 +85,7 @@
             });
         }
     
-    // function questions(){
-    //     var questions = document.querySelectorAll('.btnOptions')
-
-    // }
-    
-    //3 minutes, come back to this
-    // var timer = setTimeout(function(), 180000) {
-        
-    // }
-
-
-
-    // index page javascript
-    // this makes the button take you to the next html doc
-    // function quizTimer(){
-    //     var startBtn = document.querySelector("#startBtn")
-    //     startBtn.addEventListener("click", setTimer() {
-    //         location.href = "quiz-page.html";
-    //         secondsLeft--,
-    //             //have one for when they hit the submit button too at the end???
-    //             timer.textContent = secondsLeft;
-
-    //             if(secondsLeft===0){
-    //                 clearTimeout(timer)
-    //                 alert("Times up! Let's see how you did.")
-    //              }
-    //     })
-    // }
-    //timer is below, want the timeout to happen through ending the quiz????
-    // function quizTimer (){
-    //     var startBtn = document.querySelector('#startBtn')
-    //     startBtn.addEventListener("click", setTimeout(1300));{
-    //         location.href = "quiz-page.html";
-    //         secondsLeft--;
-    //         timer.textContent = secondsLeft;
-    //         }if (secondsLeft===0){
-    //             clearTimeout()
-    //             alert("Time's up! Let's see how you did.")
-    //         }
-    // }
-    
  
-    // // quiz page javascript
-    // var quizBtns = document.querySelector("#btnOptions")
-    // quizBtns.addEventListener("click", function(){
-    // })
-
-    // for the timer, probably need to do a window.setTimeout() for having it exit the quiz if the timer runs out
-    // //this is where the user goes when they either click the final submit button or have it time out on them
-    // function endQuiz (){
-        
-    // }
 
 
     
