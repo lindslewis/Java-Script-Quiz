@@ -9,20 +9,23 @@
 </head>
 
 <body>
-    <main class="primaryContainer">
+    <main>
         <!-- this is the container for the header contents -->
+    <section class="primaryContainer">
         <section class="openingHeader">
-        
-            <p id="timer">
-                
-            </p>
-            <!-- how to make the question number change for each section question? -->
-            <h4 class="smolHead">Question __ of 5</h4>
+            <section class="timerHead">
+                <p id="timer"></p>
+                <!-- how to make the question number change for each section question? -->
+                <h4 class="smolHead">Question __ of 5</h4>
+            </section>
+            <!-- insert  -->
             <h2 class="bigHead">The Question</h2>
         </section>
 
         <!-- this is the container for the response buttons -->
         <!-- this will likely need a vertical button group :) -->
+
+        <!-- need to size them to fit container so they don't overflow -->
         <section id="btnOptions">
             <button id="btn1"></button>
             <button id="btn2"></button>
@@ -30,6 +33,8 @@
             <button id="btn4"></button>
             <button id="btn5"></button>
         </section>
+    </section>
+        
     </main>
 </body>
 

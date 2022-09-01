@@ -87,10 +87,16 @@ body {
 
 /* for the quiz page */
 /* h2 and h3 attr */
+.timerHead {
+    display:inline-flex;
+    justify-content: space-between;
+
+}
 .smolHead {
+    /* float: inline-end; */
     color: var(--dark);
     text-align: start;
-    padding: 2vh;
+    padding: .5rem;
 }
 
 .bigHead {
@@ -98,19 +104,27 @@ body {
     text-align: start;
     padding: 2vh;
 }
+
+#timer {
+    font-family: 'DejaVu Sans Mono', monospace, sans-serif;
+    color: var(--dark);
+    padding-left: .5rem;
+    padding-top: .5rem;
+}
 #btnOptions {
     padding-top: 3vh;
+    margin: 1rem;
 }
 #btnOptions button {
     background-color: var(--secondary);
     font-size: 5vh;
     color: var(--dark);
     width: 90%;
-    min-height: 7vh;
+    height: 50%;
     align-self: center;
     border-radius: 5px;
     padding: 1vh;
-    margin: 2vh auto 2vh auto;
+    /* margin: 2vh auto 2vh auto; */
     border-color: var(--accent);
     transition-duration: 0.2s;
     align-content: center;
