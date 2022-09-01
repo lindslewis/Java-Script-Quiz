@@ -14,7 +14,7 @@
 }
 body {
     padding-top: 5vh;
-    background-image: url(images/kodama.jpg);
+    background-image: url(../images/kodama.jpg);
 }
 /* main container that sits center of the pages, index = main */
 .primaryContainer {

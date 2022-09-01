@@ -32,7 +32,7 @@
         var startBtn = document.querySelector('#startBtn')
         if(startBtn !== null){
             startBtn.addEventListener("click", function() {
-            location.href = "assets/html/quiz-page.html";
+            location.href = "./assets/html/quiz-page.html";
             });
         }
         var redoQuiz = document.querySelector("#replay")
@@ -40,7 +40,7 @@
             redoQuiz.addEventListener("click", function() {
 
             // need to fix the below file path to index.html
-            location.href = "../index.html";
+            location.href = "./index.html";
             });
         }
     
