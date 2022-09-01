@@ -27,11 +27,12 @@ function renderQuestion(){
 }
 renderQuestion()
 
-function quizNum () {
-    if(questionIndex === questions.length) {
+// function quizNum () {
+//     let number = document.querySelector('.smolHead')
+//     if(questionIndex === questions.length) {
 
-    }
-}
+//     }
+// }
 
 function quizTimer(){
     var timer = setInterval(function(){

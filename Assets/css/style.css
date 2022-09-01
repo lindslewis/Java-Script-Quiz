@@ -38,6 +38,15 @@ body {
     border-color: var(--accent);
     border-radius: 5px;
 }
+
+.subHeader {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    border-width: 0px 0px 5px 0px;
+    border-style: dotted;
+    border-color: var(--accent);
+    
+}
 /* larger part of headings, index = studio ghibli trivia */
 .quizTitle {
     color: var(--dark);
