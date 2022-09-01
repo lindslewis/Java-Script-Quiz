@@ -27,6 +27,11 @@ function renderQuestion(){
 }
 renderQuestion()
 
+function quizNum () {
+    if(questionIndex === questions.length) {
+
+    }
+}
 
 function quizTimer(){
     var timer = setInterval(function(){
@@ -35,6 +40,8 @@ function quizTimer(){
             document.querySelector("#timer").innerText = time
         }else{
             clearInterval(timer)
+            endQuiz()
+            return location.href = '../html/scores.html';
         }
     }, 1000)
 }
