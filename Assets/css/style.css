@@ -88,7 +88,7 @@ body {
 /* for the quiz page */
 /* h2 and h3 attr */
 .timerHead {
-    display:inline-flex;
+    display:flex;
     justify-content: space-between;
 
 }
@@ -106,6 +106,7 @@ body {
 }
 
 #timer {
+    font-weight: bold;
     font-family: 'DejaVu Sans Mono', monospace, sans-serif;
     color: var(--dark);
     padding-left: .5rem;
