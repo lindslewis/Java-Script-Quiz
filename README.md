@@ -1,11 +1,14 @@
 # [studio-ghibli-quiz](https://lindslewis.github.io/studio-ghibli-quiz/)
 
 ## description
+
 Take the Studio Ghibli quiz to test your knowledge on the iconic animation studio! The quiz will take users through 5 questions (with 5 answer options each) to see how much they really know about the studio and it's films.
+Check out the quiz [here](https://lindslewis.github.io/studio-ghibli-quiz/).
 
 ![front-page](https://user-images.githubusercontent.com/104105172/176840248-83073af7-6f2d-4747-ac07-175db472765f.jpg)
-![quiz-page](assets\images\updatedQuizPage.jpg)
-![scores-page](assets\images\updatedScores.jpg)
+![updatedQuizPage](https://user-images.githubusercontent.com/104105172/188289059-7aba7551-8062-4658-b28b-de787ca72377.jpg)
+![updatedScores](https://user-images.githubusercontent.com/104105172/188289060-23c97753-9f72-476e-8674-fa921e13c7a8.jpg)
+
 
 ## table-of-contents
 
