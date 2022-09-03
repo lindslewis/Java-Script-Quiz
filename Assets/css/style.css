@@ -169,12 +169,51 @@ body {
  
 }
 
+.subHeader {
+    display: flex;
+    justify-content: center;
+}
+
+#userInitials {
+    padding: 1vh;
+    border-radius: 5px;
+    margin: 5px;
+    border-color: var(--dark);
+}
+
+#userInitials:active {
+    border-color: var(--secondary);
+}
+
+#submitInitials {
+    background-color: var(--secondary);
+    color: var(--dark);
+    width: 20%;
+    border-radius: 5px;
+    padding: .5vh;
+    border-color: var(--accent);
+    transition-duration: .2s;
+    display: inline;
+    height: 5h;
+}
+
+#submitInitials:hover {
+    background-color: var(--primary);
+    border-color: var(--dark);
+    cursor: pointer;
+    transform: 1vh;
+}
+
+#submitInitials:active {
+    transform: translateY(0.5vh);
+}
+
 /* container for clear and play again buttons */
 #endBtns {
     box-sizing: border-box;
-    position: relative;
+    /* position: relative; */
     text-align: center;
-    height: 4vh;
+    /* height: 4vh; */
 }
 
 /* both clear and play again buttons */
@@ -207,7 +246,7 @@ body {
 #endBtns button:hover {
     background-color: var(--primary);
     border-color: var(--dark);
-    cursor: grabbing;
+    cursor: pointer;
     transform: 1vh;
 }
 
