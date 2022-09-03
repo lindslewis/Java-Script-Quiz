@@ -40,7 +40,7 @@
             redoQuiz.addEventListener("click", function() {
 
             // need to fix the below file path to index.html
-            location.href = "./index.html";
+            location.href = "../html/quiz-page.html";
             });
         }
     

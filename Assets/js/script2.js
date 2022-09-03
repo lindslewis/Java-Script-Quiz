@@ -33,6 +33,9 @@ renderQuestion()
 
 //     }
 // }
+// const quizNum = () => {
+//     if()
+// }
 
 function quizTimer(){
     var timer = setInterval(function(){
