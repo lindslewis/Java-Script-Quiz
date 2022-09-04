@@ -32,7 +32,7 @@
         var startBtn = document.querySelector('#startBtn')
         if(startBtn !== null){
             startBtn.addEventListener("click", function() {
-            location.href = "./assets/html/quiz-page.html";
+            location.href = "./Assets/html/quiz-page.html";
             });
         }
         var redoQuiz = document.querySelector("#replay")
